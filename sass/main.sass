@@ -1,0 +1,65 @@
+// @import compass/reset
+
+*
+	margin: 0
+	padding: 0
+
+#boardCss
+	width: 600px
+	height: 600px
+
+.rowCss
+	height: 75px
+	div
+		width: 75px
+		height: 75px
+		float: left
+		&:before
+			content: ''
+			background: url('../img/pieces.png') no-repeat
+			width: 75px
+			height: 75px
+			background-position: 100px
+			display: block
+
+.black
+	background-color: #DBDBDB
+
+.white
+	background-color: #F3F3F3
+
+div.bQueen:before
+	background-position: 5px 6px
+
+div.bKing:before
+	background-position: -59px 7px
+
+div.bTower:before
+	background-position: -124px 5px
+
+div.bHorse:before
+	background-position: -188px 7px
+
+div.bBishop:before
+	background-position: -251px 7px
+	
+div.bPawn:before
+	background-position: -316px 7px
+
+div.wQueen:before
+	background-position: 5px -59px
+
+div.wKing:before
+	background-position: -59px -59px
+
+div.wTower:before
+	background-position: -124px -59px
+
+div.wHorse:before
+	background-position: -188px -59px
+
+div.wBishop:before
+	background-position: -251px -59px
+	
+div.wPawn:before
+	background-position: -316px -59px

@@ -1,0 +1,101 @@
+/* line 3, ../sass/main.sass */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/main.sass */
+#boardCss {
+  width: 600px;
+  height: 600px;
+}
+
+/* line 11, ../sass/main.sass */
+.rowCss {
+  height: 75px;
+}
+/* line 13, ../sass/main.sass */
+.rowCss div {
+  width: 75px;
+  height: 75px;
+  float: left;
+}
+/* line 17, ../sass/main.sass */
+.rowCss div:before {
+  content: "";
+  background: url("../img/pieces.png") no-repeat;
+  width: 75px;
+  height: 75px;
+  background-position: 100px;
+  display: block;
+}
+
+/* line 25, ../sass/main.sass */
+.black {
+  background-color: #DBDBDB;
+}
+
+/* line 28, ../sass/main.sass */
+.white {
+  background-color: #F3F3F3;
+}
+
+/* line 31, ../sass/main.sass */
+div.bQueen:before {
+  background-position: 5px 6px;
+}
+
+/* line 34, ../sass/main.sass */
+div.bKing:before {
+  background-position: -59px 7px;
+}
+
+/* line 37, ../sass/main.sass */
+div.bTower:before {
+  background-position: -124px 5px;
+}
+
+/* line 40, ../sass/main.sass */
+div.bHorse:before {
+  background-position: -188px 7px;
+}
+
+/* line 43, ../sass/main.sass */
+div.bBishop:before {
+  background-position: -251px 7px;
+}
+
+/* line 46, ../sass/main.sass */
+div.bPawn:before {
+  background-position: -316px 7px;
+}
+
+/* line 49, ../sass/main.sass */
+div.wQueen:before {
+  background-position: 5px -59px;
+}
+
+/* line 52, ../sass/main.sass */
+div.wKing:before {
+  background-position: -59px -59px;
+}
+
+/* line 55, ../sass/main.sass */
+div.wTower:before {
+  background-position: -124px -59px;
+}
+
+/* line 58, ../sass/main.sass */
+div.wHorse:before {
+  background-position: -188px -59px;
+}
+
+/* line 61, ../sass/main.sass */
+div.wBishop:before {
+  background-position: -251px -59px;
+}
+
+/* line 64, ../sass/main.sass */
+div.wPawn:before {
+  background-position: -316px -59px;
+}
